@@ -1,0 +1,44 @@
+<div class="fixed-top wrap">
+    <div id="top" width="100%" style="align-content: center;">
+        <ul style="display: inline-flex; list-style-type: none; padding-left: 0px;">
+            <li><a href="./index.html" target="_self"><input type="button" value="WALLANGEL"
+                        style="height: 45px; width: auto; display: inline-block; background: rgb(98, 94, 105);"></a>
+            </li>
+            <li>
+                <nav aria-label="breadcrumb" class="navbar navbar-expand-md navbar-dark left">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                        <a><input id="btnLatest" onclick="flag = 'latest';displayImages(1);"  type="button" class="menuDisplay"
+                                value="Latest"></a>
+                        <a><input id="btnTop" onclick="flag = 'top';displayImages(1);" type="button" value="Top"
+                                class="menuDisplay"></a>
+                        <div class="dropdown">
+                            <a href="javascript:void(0)" class="" style="text-decoration: none;"><input
+                                    type="button" class="menuDisplay" value="More"></a>
+                            <div class="dropdown-content">
+                                <a href="./about.html">ABOUT</a>
+                                <a href="./faq.html">FAQ</a>
+                                <a href="./contact.html">CONTACT</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </li>
+            <form class="example" style="width: 600px;">
+                <input id="txtsearch" type="text" placeholder="General/Anime/People/All" name="search2">
+                <button id="btnSearch" style="background-color: black;"><i class="fa fa-search"></i></button>
+            </form>
+            <nav aria-label="breadcrumb" class="navbar navbar-expand-md navbar-dark right">
+                <div class="collapse navbar-collapse topleft" id="collapsibleNavbar">
+                    <a href="./signup.html" target="_blank"><input type="button" class="menuDisplay"
+                            value="Sign Up"></a>
+                    <a href="./signIn.html" target="_blank"><input type="button" class="menuDisplay"
+                            value="Sign In"></a>
+                </div>
+            </nav>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="./app.js"></script>
